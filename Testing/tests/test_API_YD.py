@@ -4,9 +4,9 @@ import requests
 class TestYDCreateFolder:
     def setup_method(self) -> None:
         self.headers = {
-            ''
+            '' # здесь был токен 
         }
-
+        
     @pytest.mark.parametrize(
         'param,folder_name,status',
         (
