@@ -4,7 +4,7 @@ import requests
 class TestYDCreateFolder:
     def setup_method(self) -> None:
         self.headers = {
-            'Authorization': ''
+            ''
         }
 
     @pytest.mark.parametrize(
